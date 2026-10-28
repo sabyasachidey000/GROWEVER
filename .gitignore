@@ -1,0 +1,35 @@
+# Environment and machine-specific configuration
+.env
+.env.*
+!.env.example
+php.ini
+.user.ini
+/auth.json
+
+# Dependencies and build output
+/vendor/
+/node_modules/
+/__pycache__/
+*.py[cod]
+/public/build/
+/public/hot
+/public/storage
+
+# Laravel runtime data
+/bootstrap/cache/*.php
+/storage/*.key
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/app/public/*
+
+# Local tooling output
+/.phpunit.cache
+/.phpunit.result.cache
+**/.claude/settings.local.json
+/Homestead.json
+/Homestead.yaml
+/npm-debug.log
+/yarn-error.log
